@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #19a2ae;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.card {
+  width: 280px;
+  margin: 80px auto;
+  border-radius: 15px;
+  background-color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.cover-img {
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.profile-img {
+  position: relative;
+  top: -52px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.name {
+  position: relative;
+  top: -40px;
+}
+
+.name h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0 10px;
+}
+
+.name h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #969696;
+}
+
+.name .age {
+  font-weight: 400;
+  color: #969696;
+}
+
+.stat-card {
+  border-top: 1px solid #969696;
+  padding: 20px 40px;
+}
+
+.stat {
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.label {
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #969696;
+}
+
+.stats-numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.stats-labels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=styles.css.map */

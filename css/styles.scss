@@ -1,0 +1,137 @@
+// Variables ------------------------------------------------------
+// Colors
+
+$dark-cyan : hsl(185, 75%, 39%);
+$v-dark-blue: hsl(229, 23%, 23%);
+$dark-grayish-blue: hsl(227, 10%, 46%);
+
+$dark-gray: hsl(0, 0%, 59%);
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // border: 0.5px solid red;
+
+    }
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $dark-cyan;
+
+    // background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+    // background-position: -10% -200%, 100% 200%;
+    // background-repeat: no-repeat, no-repeat;
+    // background-size: 30%;
+
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.card {
+    width: 280px;
+    margin: 80px auto;
+    border-radius: 15px;
+    background-color: white;
+
+    align-items: center;
+    text-align: center;
+}
+
+.cover-img {
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.profile-img {
+    position: relative;
+    top: -52px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+
+.name {
+    position: relative;
+    top: -40px;
+    
+    h1 {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin: 0 10px;
+    }
+    
+    h2 {
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: $dark-gray;
+    }
+    
+    .age {
+        font-weight: 400;
+        color: $dark-gray;
+    }
+}
+
+
+.stat-card {
+    border-top: 1px solid $dark-gray;
+    padding: 20px 40px;
+}
+
+.stat {
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.label {
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: $dark-gray;
+}
+
+.stats-numbers {
+    display: flex;
+
+}
+
+.stats-labels {
+    display: flex;
+}
+
+
+// Relevant links
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
