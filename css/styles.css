@@ -11,11 +11,7 @@ html {
 
 body {
   background-color: #19a2ae;
-<<<<<<< HEAD
-  font-family: "Kumbh Sans", sans-serif;
-=======
   font-family: 'Kumbh Sans', sans-serif;
->>>>>>> 1bd8c15f33d63e23bcfe57eeb405c2a652ad5c6e
   background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
   background-position: right 50vw bottom 40vh, 45vw 45vh;
