@@ -5,31 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/styles.css">
+
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
 
-  80K
-  Followers
 
-  803K
-  Likes
+  <div class="card">
+    
+    <div class="images">
+      <img class="cover-img" src="images/bg-pattern-card.svg" alt="">
+      <img class="profile-img" src="images/image-victor.jpg" alt="">
+    </div>
+    
 
-  1.4K
-  Photos
+    <div class="name-card">
+      <div class="name">
+        <h1>Victor Crest <span class="age">26</span></h1>
+        <h2>London</h2>
+      </div>
+    </div>
+
+  
+    <div class="stat-card">
+      <div class="stats-numbers">
+        <div class="stat">80K</div>
+        <div class="stat">803K</div>
+        <div class="stat">1.4K</div>
+      </div>
+      <div class="stats-labels">
+        <div class="label">Followers</div>
+        <div class="label">Likes</div>
+        <div class="label">Photos</div>
+      </div>
+    </div>
+
+  </div>
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/TheThomasY" target="_blank">Tom Young</a>.
   </div>
+
+
+
 </body>
 </html>

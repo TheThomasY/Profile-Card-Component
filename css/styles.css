@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #19a2ae;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right 50vw bottom 40vh, 45vw 45vh;
+}
+
+.bg-tl {
+  position: absolute;
+  bottom: 35%;
+  right: 53%;
+}
+
+.bg-br {
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  z-index: -1;
+}
+
+.card {
+  width: 350px;
+  margin: 150px auto;
+  border-radius: 15px;
+  background-color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.cover-img {
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.profile-img {
+  position: relative;
+  top: -52px;
+  border-radius: 50%;
+  border: 5px solid white;
+  background-color: white;
+}
+
+.name-card {
+  margin-bottom: -10px;
+}
+
+.name {
+  position: relative;
+  top: -40px;
+}
+
+.name h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.name h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #969696;
+  margin-top: 10px;
+}
+
+.name .age {
+  font-weight: 400;
+  color: #969696;
+  padding-left: 5px;
+}
+
+.stat-card {
+  border-top: 1px solid #e7e7e7;
+  padding: 25px 20px;
+}
+
+.stat {
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.label {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #969696;
+}
+
+.stats-numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.stats-labels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=styles.css.map */
