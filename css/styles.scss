@@ -23,20 +23,31 @@ html {
 
 body {
     background-color: $dark-cyan;
-
-    // background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
-    // background-position: -10% -200%, 100% 200%;
-    // background-repeat: no-repeat, no-repeat;
-    // background-size: 30%;
-
     font-family: 'Kumbh Sans', sans-serif;
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right 50vw bottom 40vh, 45vw 45vh;
+}
+
+.bg-tl {
+    position: absolute;
+    bottom: 35%;
+    right: 53%;
+}
+
+.bg-br {
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    z-index: -1;
 }
 
 .card {
-    width: 280px;
-    margin: 80px auto;
+    width: 350px;
+    margin: 150px auto;
     border-radius: 15px;
     background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
     align-items: center;
     text-align: center;
@@ -53,8 +64,12 @@ body {
     top: -52px;
     border-radius: 50%;
     border: 5px solid white;
+    background-color: white;
 }
 
+.name-card {
+    margin-bottom: -10px;
+}
 
 .name {
     position: relative;
@@ -63,38 +78,40 @@ body {
     h1 {
         font-size: 1.8rem;
         font-weight: 700;
-        margin: 0 10px;
     }
     
     h2 {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         font-weight: 400;
         color: $dark-gray;
+        margin-top: 10px;
     }
     
     .age {
         font-weight: 400;
         color: $dark-gray;
+        padding-left: 5px;
     }
 }
 
 
 .stat-card {
-    border-top: 1px solid $dark-gray;
-    padding: 20px 40px;
+    border-top: 1px solid rgb(231, 231, 231);
+    padding: 25px 20px;
 }
 
 .stat {
     width: 100%;
     font-size: 1.8rem;
     font-weight: 700;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .label {
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
+    letter-spacing: 1px;
     color: $dark-gray;
 }
 
@@ -112,6 +129,7 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding-bottom: 30px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
