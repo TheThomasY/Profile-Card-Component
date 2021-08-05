@@ -1,131 +1,127 @@
 // Variables ------------------------------------------------------
 // Colors
 
-$dark-cyan : hsl(185, 75%, 39%);
+$dark-cyan: hsl(185, 75%, 39%);
 $v-dark-blue: hsl(229, 23%, 23%);
 $dark-grayish-blue: hsl(227, 10%, 46%);
 
 $dark-gray: hsl(0, 0%, 59%);
 
-
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    // border: 0.5px solid red;
-
-    }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // border: 0.5px solid red;
+}
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    background-color: $dark-cyan;
-    font-family: 'Kumbh Sans', sans-serif;
-    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat;
-    background-position: right 50vw bottom 40vh, 45vw 45vh;
+  background-color: $dark-cyan;
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right 50vw bottom 40vh, 45vw 45vh;
 }
 
 .bg-tl {
-    position: absolute;
-    bottom: 35%;
-    right: 53%;
+  position: absolute;
+  bottom: 35%;
+  right: 53%;
 }
 
 .bg-br {
-    position: absolute;
-    left: 50%;
-    top: 48%;
-    z-index: -1;
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  z-index: -1;
 }
 
 .card {
-    width: 350px;
-    margin: 160px auto;
-    border-radius: 15px;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  width: 350px;
+  margin: 160px auto;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
-    align-items: center;
-    text-align: center;
+  align-items: center;
+  text-align: center;
 }
 
 .cover-img {
-    width: 100%;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 .profile-img {
-    position: relative;
-    top: -52px;
-    border-radius: 50%;
-    border: 5px solid white;
-    background-color: white;
+  position: relative;
+  top: -52px;
+  border-radius: 50%;
+  border: 5px solid white;
+  background-color: white;
 }
 
 .name-card {
-    margin-bottom: -10px;
+  margin-bottom: -10px;
 }
 
 .name {
-    position: relative;
-    top: -40px;
-    
-    h1 {
-        font-size: 1.8rem;
-        font-weight: 700;
-        color: $v-dark-blue;
-    }
-    
-    h2 {
-        font-size: 1.5rem;
-        font-weight: 400;
-        color: $dark-gray;
-        margin-top: 10px;
-    }
-    
-    .age {
-        font-weight: 400;
-        color: $dark-gray;
-        padding-left: 5px;
-    }
+  position: relative;
+  top: -40px;
+
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: $v-dark-blue;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: $dark-gray;
+    margin-top: 10px;
+  }
+
+  .age {
+    font-weight: 400;
+    color: $dark-gray;
+    padding-left: 5px;
+  }
 }
 
-
 .stat-card {
-    border-top: 1px solid rgb(231, 231, 231);
-    padding: 25px 20px;
+  border-top: 1px solid rgb(231, 231, 231);
+  padding: 25px 20px;
 }
 
 .stat {
-    color: $v-dark-blue;
-    width: 100%;
-    font-size: 1.8rem;
-    font-weight: 700;
-    margin: 5px 0;
+  color: $v-dark-blue;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 5px 0;
 }
 
 .label {
-    width: 100%;
-    font-size: 1rem;
-    font-weight: 400;
-    letter-spacing: 1px;
-    color: $dark-gray;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: $dark-gray;
 }
 
 .stats-numbers {
-    display: flex;
-
+  display: flex;
 }
 
 .stats-labels {
-    display: flex;
+  display: flex;
 }
-
 
 // Relevant links
 .attribution {
@@ -136,22 +132,3 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
